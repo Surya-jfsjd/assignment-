@@ -1,0 +1,58 @@
+/*  the initial delecration........*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  /* . represents the class */
+  .container {
+     /*to display the content in side by side manner */
+    display: flex;
+     /*background colour */
+    background: #fff;
+     /*position of the items  */
+    align-content: center;
+    justify-content: center;
+     /*direction of the flex */
+    flex-direction: column;
+     /*declearing the min width and height*/
+    min-width: 700px;
+    min-height: 500px;
+     /*radius */
+    border-radius: 5%;
+    margin: auto;
+  }
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td {
+     /*background colour */
+    background-color: #666;
+    /* border */
+    border: 5px solid white;
+    /*size of the text*/
+    font-size: 80px;
+    /*color of the text*/
+    color: #fff;
+      /*radius */
+    border-radius: 10%;
+  }
+  
+  #player {
+    padding: 1rem;
+  }
+  
+  body {
+    /*to display the content in side by side manner */
+    display: flex;
+     /*background colour */
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+      center center/cover;
+    /*height and width */
+    height: 100vh;
+    width: 100%;
+     /*if the content is going out of the box then hide them */ 
+    overflow: hidden;
+  }
